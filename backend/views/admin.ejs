@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Course</h2>
+        <form id="addCourseForm">
+            <input type="text" id="title" placeholder="Course Title" required>
+            <input type="number" id="seats" placeholder="Total Seats" required>
+            <button type="submit">Add Course</button>
+        </form>
+        <h2>Available Courses</h2>
+        <div id="courses"></div>
+    </div>
+    <script src="/public/js/admin.js"></script>
+</body>
+</html>
