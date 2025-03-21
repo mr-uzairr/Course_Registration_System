@@ -16,3 +16,6 @@ git clone https://github.com/your-username/Course_Registration_System.git
 cd Course_Registration_System
 npm install
 npm start
+
+
+https://github.com/mr-uzairr/Course_Registration_System.git
